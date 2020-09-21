@@ -4,7 +4,7 @@ A la fin d'une partie, le tableau des scores s'affiche et si vous entrez dans le
 Le projet est disponible <a href="https://projets.thomascorcoral.netheberg.fr/pathfinder/pathfinding.html">ici</a>.
 
 ## Demo
-![Preview](https://github.com/ThomasCorcoral/Gazette-php/blob/master/Pathfinding.png)
+![Preview](https://github.com/ThomasCorcoral/Pathfinding_JS/blob/master/Pathfinding.png)
 
 ## Comment a-t-il été réalisé ?
 
