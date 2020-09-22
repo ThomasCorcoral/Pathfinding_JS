@@ -53,7 +53,6 @@ table {
  *************************************************************************/ 
 body {
     --couleurPoint: orange;
-    --couleurPointActif: DarkSlateGrey;
     --couleurPointSurvol: blue;
     --couleurBG: white;
     --couleurFG: black;
@@ -64,15 +63,6 @@ body {
     width: 100vw;
     height: 100vh;
 }
-
-body.test {
-    --couleurPoint: orange;
-	--couleurPointActif: DarkOrange;
-    --couleurPointSurvol: blue;
-    --couleurBG: white;
-    --couleurFG: black;
-}
-
 body.darkmode {
     --couleurPoint: yellow;
     --couleurBG: black;
@@ -99,12 +89,7 @@ body.darkmode {
     transform: translate(-50%, -50%);
 }
 .point:not(.courant):not(.erreur):hover {
-    background-color: var(--couleurPoint);   
-}
-
-.point.courant
-{
-    background-color: var(--couleurPointActif);
+    background-color: var(--couleurPointSurvol);   
 }
 
 .point.courant:before {
@@ -118,7 +103,7 @@ body.darkmode {
     box-sizing: border-box;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    border: solid 2px var(--couleurPointActif);
+    border: solid 2px var(--couleurPoint);
     animation-name: halo;
     animation-duration: 1s;
     animation-direction: normal;
@@ -126,11 +111,11 @@ body.darkmode {
 }
 @keyframes halo {
     0% {
-        border-color: var(--couleurPointActif);
+        border-color: var(--couleurPoint);
         padding: 0;
     }
     60% {
-        border-color: var(--couleurPointActif);
+        border-color: var(--couleurPoint);
     }
     100% {
         border-color: transparent;
@@ -245,35 +230,37 @@ hr {
     margin: 0;
     border-width: 1px;
     transform-origin: left top;
-    /*display: none;*/
+    display: none;
     position: absolute;
     border-color: var(--couleurPoint);
 }
 /** Visiblement uniquement si on a survolé un autre point **/
 .point:not(.courant):hover ~ hr {
-    /*display: none;*/
+    display: block;
 }
 
-.back[href]
+.buttonBack
 {
-    float: right;
+	float: right;
     font-family: h2_font;
-    margin-right: 30px;
-    margin-top: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
     font-size: 13px;
     border: 1px solid black;
     color: black;
     text-decoration: none;
     padding: 7px 40px 7px 40px;
-    transition: background 0.4s linear 0s;
+    transition: background .4s linear 0s;
 }
 
-.back[href]:hover
+.buttonBack:hover
 {
-    background-color: gray;
-    text-decoration: none;
-    color: white;
-    border: 1px solid black;
-    transition: color 0.4s linear 0s;
-    cursor: pointer;
+	background-color:white;
+	text-decoration:none;
+	color:#2e4975;
+	border:1px solid #2e4975;
+	transition:color .4s linear 0s;
+	cursor:pointer
 }
+        
+        
