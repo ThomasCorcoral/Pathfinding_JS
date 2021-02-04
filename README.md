@@ -2,7 +2,7 @@
 It’s an interactive website. It’s a little pathfinding game. The goal is to find at each turn the next point closest to the current point.
 At the end of a game, the scoreboard is displayed and if you enter the top 10, your name will also be asked. Score management is only done locally.<br>
 <br>
-The project is available here <a href="https://projets.thomascorcoral.com/pathfinder/pathfinding.html">ici</a>.
+The project is available <a href="https://projets.thomascorcoral.com/pathfinder/pathfinding.html">here</a>.
 
 ## Demo
 ![Preview](https://github.com/ThomasCorcoral/Pathfinding_JS/blob/master/Pathfinding.png)
