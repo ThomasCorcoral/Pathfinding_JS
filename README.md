@@ -1,17 +1,16 @@
-## Quel est ce projet ?
-Il s'agit d'un site internet intéractif. Il s'agit d'un petit jeu de pathfinding. Le but est de trouver à chaque tour le prochain point le plus proche du point courant.
-A la fin d'une partie, le tableau des scores s'affiche et si vous entrez dans le top 10, votre nom sera également demandé. La gestion des scores se fait uniquement en local.<br><br>
-Le projet est disponible <a href="https://projets.thomascorcoral.netheberg.fr/pathfinder/pathfinding.html">ici</a>.
+## What is this project?
+It’s an interactive website. It’s a little pathfinding game. The goal is to find at each turn the next point closest to the current point.
+At the end of a game, the scoreboard is displayed and if you enter the top 10, your name will also be asked. Score management is only done locally.<br>
+<br>
+The project is available here <a href="https://projets.thomascorcoral.com/pathfinder/pathfinding.html">ici</a>.
 
 ## Demo
 ![Preview](https://github.com/ThomasCorcoral/Pathfinding_JS/blob/master/Pathfinding.png)
 
-## Comment a-t-il été réalisé ?
+## How was it realized?
 
-Ce projet a été réalisé principalement en Javascript, couplé à un style css.<br>
+This project was carried out mainly in Javascript, coupled with a css style.<br>
 
-## Guide d'installation
+## Installation Guide
 
-Le projet étant disponible sur internet il n'est pas nécessaire de l'installer. Si toutefois vous souhaitez le modifier, il vous faudra tout simplement télécharger le projet et lancer la page hmtl.
-
-e projet est disponible <a href="https://projets.thomascorcoral.netheberg.fr/pathfinder/pathfinding.html">ici</a>.
+As the project is available on the internet it is not necessary to install it. However, if you want to change it, you will simply have to download the project and launch the hmtl page.
